@@ -1,0 +1,39 @@
+* {
+  font-variant: normal !important;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url(../fonts/ProductSans.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url(../fonts/ProductSansBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GimkitSF";
+  src: url(../fonts/SF-Pro-Display-Medium.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GimkitSF";
+  src: url(../fonts/SF-Pro-Display-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GimkitSF";
+  src: url(../fonts/SF-Pro-Display-Heavy.otf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "GimkitSF";
+  src: url(../fonts/SF-Pro-Display-Black.otf);
+  font-weight: 900;
+}

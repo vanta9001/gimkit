@@ -1,0 +1,37 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: auto;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* AntD does not allow an option to currently change the box shadow for hoverable cards */
+.ant-card-hoverable:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
